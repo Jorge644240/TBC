@@ -1,0 +1,135 @@
+*::selection
+{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+body
+{
+    font-family: 'Quicksand';
+}
+section
+{
+    min-height: 100vh;
+}
+#title
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2% 10%;
+    text-align: center;
+}
+nav
+{
+    font-family: 'Montserrat';
+}
+#title h1
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2
+{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+}
+h3
+{
+    font-size: 2rem;
+    font-family: 'Arvo';
+}
+section .row
+{
+    padding: 13% 5%;
+}
+section p
+{
+    font-size: 2rem;
+}
+.icons
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.icons i
+{
+    margin: 2%;
+}
+#about
+{
+    background-image: -webkit-linear-gradient(top, #000000, #666666);
+    color: #FFFFFF;
+}
+.col-lg-7, .col-lg-8
+{
+    padding: 5%;
+}
+#about .col-lg-5
+{
+    position: relative;
+}
+#about .col-lg-5 img
+{
+    filter: grayscale(100%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#about .col-lg-5 img:hover
+{
+    filter: grayscale(0);
+}
+#services
+{
+    background-image: -webkit-linear-gradient(top, #666666, #BBBBBB);
+    color: #FFFFFF;
+}
+#services .col-lg-8
+{
+    text-align: right;
+}
+#contact
+{
+    background-image: -webkit-linear-gradient(top, #BBBBBB, #FFFFFF);
+    text-align: center;
+}
+#contact .row
+{
+    padding: 15% 5%;
+}
+#footer
+{
+    text-align: center;
+    padding: 3%;
+}
+.fab
+{
+    margin: 0 2%;
+}
+.btn, #copyright
+{
+    font-family: 'Arvo';
+}
+@media screen and (max-width: 1000px)
+{
+    #about .col-lg-5 img
+    {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    #title
+    {
+        padding: 2% 0;
+    }
+}

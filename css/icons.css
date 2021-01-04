@@ -1,0 +1,60 @@
+.fa-html5:hover, .fa-swift:hover
+{
+    color: #CC3700;
+}
+.fa-css3-alt:hover
+{
+    color: #0088FF;
+}
+.fa-js:hover, .fa-js-square:hover
+{
+    color: #FFFF00;
+}
+.fa-vuejs:hover
+{
+    color: #004400;
+}
+.fa-react:hover
+{
+    color: #0088FF;
+}
+.fa-angular:hover
+{
+    color: #CC0000;
+}
+.fa-python:hover
+{
+    color: #0055BB;
+}
+.fa-php:hover
+{
+    color: #550055;
+}
+.fa-node:hover
+{
+    color: #00AA00;
+}
+.fa-node-js:hover
+{
+    color: #006600;
+}
+.fa-java:hover
+{
+    color: #804F21;
+}
+.fa-android:hover
+{
+    color: #339933;
+}
+.fa-twitter:hover
+{
+    color: #4488EE;
+}
+.fa-facebook:hover
+{
+    color: #000099;
+}
+.fa-linkedin:hover
+{
+    color: #000055;
+}

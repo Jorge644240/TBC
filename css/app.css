@@ -1,0 +1,210 @@
+*::selection
+{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+body
+{
+    font-family: 'Quicksand';
+}
+section
+{
+    min-height: 100vh;
+}
+#title
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2% 10%;
+    text-align: center;
+}
+nav
+{
+    font-family: 'Montserrat';
+}
+.me-auto li
+{
+    padding: 5%;
+}
+#title h1
+{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 4rem;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2
+{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+}
+h3
+{
+    font-size: 2rem;
+    font-family: 'Arvo';
+}
+section .row
+{
+    padding: 13% 5%;
+}
+section i.fab
+{
+    margin: 5%;
+}
+.col-lg-8
+{
+    padding: 5%;
+}
+.col-lg-4
+{
+    font-size: 2rem;
+    text-align: center;
+}
+#android, #ios
+{
+    color: #FFFFFF;
+}
+#android
+{
+    background-image: -webkit-linear-gradient(top, #000000, #333333);
+}
+#ios
+{
+    background-image: -webkit-linear-gradient(top, #333333, #666666);
+}
+#ios .col-lg-8
+{
+    text-align: right;
+}
+#small
+{
+    display: none;
+}
+#hybrid
+{
+    background-image: -webkit-linear-gradient(top, #666666, #999999);
+    text-align: center;
+}
+#hybrid h2, #hybrid h3
+{
+    color: #FFFFFF;
+}
+#pricing
+{
+    background-image: -webkit-linear-gradient(top, #999999, #BBBBBB);
+    padding: 0 5%;
+}
+#pricing .row
+{
+    padding: 5%;
+}
+#pricing .col-lg-12
+{
+    text-align: center;
+    margin-bottom: 5%;
+}
+h3.card-title
+{
+    font-weight: 600;
+}
+.card-header
+{
+    padding: 5%;
+}
+.card-text
+{
+    margin: 0 auto;
+}
+#links
+{
+    min-height: auto;
+    background-image: -webkit-linear-gradient(top, #BBBBBB, #FFFFFF);
+    padding: 5%;
+    text-align: center;
+}
+#links a
+{
+    color: #000000;
+}
+#links a h3
+{
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 30%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#footer
+{
+    text-align: center;
+    padding: 3%;
+}
+.fab
+{
+    margin: 0 2%;
+}
+.row div h2 + .btn
+{
+    margin-top: 10%;
+}
+.btn, #copyright
+{
+    font-family: 'Arvo';
+}
+@media screen and (max-width: 1000px)
+{
+    #links
+    {
+        text-align: center;
+    }
+    #links a
+    {
+        text-decoration: none;
+    }
+    #links a h3
+    {
+        margin: 0 auto 3%;
+        display: block;
+        border-left: none;
+        border-right: none;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    #title h1
+    {
+        font-size: 3.5rem;
+    }
+    #android, #ios .col-lg-8
+    {
+        text-align: center;
+    }
+    #ios .col-lg-4
+    {
+        display: none;
+    }
+    #ios #small
+    {
+        display: block;
+    }
+    .card
+    {
+        margin: 5% auto;
+    }
+    .me-auto li
+    {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    #title
+    {
+        padding: 2% 0;
+    }
+}
