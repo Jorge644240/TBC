@@ -26,7 +26,7 @@ nav
 {
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 4.3rem;
     position: absolute;
     margin: 0;
     top: 50%;
@@ -37,11 +37,11 @@ h2
 {
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
 h3
 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-family: 'Arvo';
 }
 section .row
@@ -50,11 +50,11 @@ section .row
 }
 section p
 {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 .icons
 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 .icons i
